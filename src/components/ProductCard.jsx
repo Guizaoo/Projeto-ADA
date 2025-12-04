@@ -3,7 +3,7 @@ export default function ProductCard({ produto }) {
 
   return (
     <article className="bg-white rounded-2xl shadow-sm hover:shadow-md transition border border-slate-100 p-4 sm:p-5 flex gap-4 sm:gap-5">
-      <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden bg-slate-100 flex-shrink-0">
+      <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden bg-slate-100 .flex-shrink-0">
         <img
           src={produto.imagem}
           alt={produto.nome}
