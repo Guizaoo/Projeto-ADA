@@ -11,7 +11,7 @@ export const produtos = [
     categoria: "Bebidas",
     detalhes: ["Zero açúcar", "Com cafeína", "350ml", "Contém lactose"],
     imagem:
-      "https://images.unsplash.com/photo-1615880484746-a134be9c2ea5?auto=format&fit=crop&w=800&q=80",
+      "https://cdn.pixabay.com/photo/2016/11/08/05/26/coca-cola-1809428_1280.jpg ",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const produtos = [
     detalhes: ["Contém lactose", "Carne 150g", "Molho especial"],
 
     imagem:
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "https://www.coca-cola.com/br/pt/brands/coca-cola",
   },
   {
     id: 3,
@@ -42,6 +42,17 @@ export const produtos = [
     preco: 12.5,
     categoria: "Sobremesas",
     detalhes: ["Contém lactose", "2 bolas", "Cobertura inclusa"],
+
+    imagem:
+      "https://images.unsplash.com/photo-1542822038-3a1810a5c9b8?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 5,
+    nome: "Fatia de bolo de chocola com cenoura ",
+    descricao: "Fatia de bolo",
+    preco: 25.50,
+    categoria: "Sobremesas",
+    detalhes: ["Contém lactose", "Uma fatia", "Cobertura inclusa"],
 
     imagem:
       "https://images.unsplash.com/photo-1542822038-3a1810a5c9b8?auto=format&fit=crop&w=800&q=80",
