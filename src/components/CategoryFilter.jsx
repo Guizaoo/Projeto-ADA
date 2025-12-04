@@ -1,4 +1,4 @@
-// src/components/CategoryFilter.jsx
+
 
 export default function CategoryFilter({
   categorias,

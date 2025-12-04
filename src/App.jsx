@@ -1,4 +1,3 @@
-// src/App.jsx
 
 import { useState, useMemo } from "react";
 import Header from "./components/Header.jsx";
@@ -19,16 +18,15 @@ export default function App() {
       <Header />
 
       <main className="flex-1">
-        <section className="max-w-5xl mx-auto px-4 .py-8 sm:px-6 lg:px-8 py-8 sm:py-10">
-          {/* Título da página */}
-          <div className="mb-6 sm:mb-8 space-y-2 sm:space-y-3">
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Cardápio / Itens da Loja
+       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+          <div className="mb-4 sm:mb-6 space-y-1">
+            <p className="text-sm font-semibold text-indigo-600">Cardápio</p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 text-center">
+              Escolha seu pedido
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Veja abaixo os produtos disponíveis. Este menu é apenas para
-              consulta de itens e valores. Se preferir, escolha a categoria
-              para encontrar o que deseja mais rápido.
+              Toque nas categorias ou role para ver as opções com preços e
+              observações rápidas, no estilo de apps de delivery.
             </p>
           </div>
 
@@ -45,7 +43,7 @@ export default function App() {
               Nenhum produto encontrado nessa categoria.
             </p>
           ) : (
-            <div className="grid gap-4 sm:gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="space-y-3 sm:space-y-4">
               {produtosFiltrados.map((produto) => (
                 <ProductCard key={produto.id} produto={produto} />
               ))}

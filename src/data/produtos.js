@@ -9,6 +9,7 @@ export const produtos = [
     descricao: "Refrigerante gelado, perfeito para acompanhar seu pedido.",
     preco: 6.0,
     categoria: "Bebidas",
+    detalhes: ["Zero açúcar", "Com cafeína", "350ml", "Contém lactose"],
     imagem:
       "https://images.unsplash.com/photo-1615880484746-a134be9c2ea5?auto=format&fit=crop&w=800&q=80",
   },
@@ -18,6 +19,8 @@ export const produtos = [
     descricao: "Pão artesanal, carne 150g, queijo, salada e molho especial.",
     preco: 24.9,
     categoria: "Lanches",
+    detalhes: ["Contém lactose", "Carne 150g", "Molho especial"],
+
     imagem:
       "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
   },
@@ -27,6 +30,8 @@ export const produtos = [
     descricao: "Porção de batata frita crocante.",
     preco: 14.0,
     categoria: "Lanches",
+    detalhes: ["Serve 2 pessoas", "Sem glúten", "Sem lactose"],
+
     imagem:
       "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&q=80",
   },
@@ -36,6 +41,8 @@ export const produtos = [
     descricao: "Taça com 2 bolas de sorvete de chocolate.",
     preco: 12.5,
     categoria: "Sobremesas",
+    detalhes: ["Contém lactose", "2 bolas", "Cobertura inclusa"],
+
     imagem:
       "https://images.unsplash.com/photo-1542822038-3a1810a5c9b8?auto=format&fit=crop&w=800&q=80",
   },
